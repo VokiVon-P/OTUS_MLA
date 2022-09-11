@@ -1,0 +1,20 @@
+
+PUT http://localhost:8000/predict/122 HTTP/1.1
+content-type: application/json
+
+{
+  "age": 63,
+  "sex": "Female",
+  "cp": "asymptomatic",
+  "trestbps": 150.0,
+  "chol": 407.0,
+  "fbs": false,
+  "restecg": "lv hypertrophy",
+  "thalch": 154.0,
+  "exang": false,
+  "oldpeak": 4.0,
+  "slope": "flat",
+  "ca": 3.0,
+  "thal": "reversable defect"
+}
+
