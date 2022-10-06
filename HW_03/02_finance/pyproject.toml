@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "02_finance"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+setuptools = "^65.3.0"
+pandas = "^1.4.4"
+cryptocompare = "^0.7.6"
+tqdm = "^4.64.1"
+ipywidgets = "^8.0.2"
+matplotlib = "^3.6.0"
+jupyterlab = "^3.4.7"
+joblib = "^1.2.0"
+seaborn = "^0.12.0"
+scikit-learn = "^1.1.2"
+tslearn = "^0.5.2"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.15.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
